@@ -1,10 +1,10 @@
 package com.yigelangzi.myhttp.mymvvm
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.yigelangzi.myhttp.R
 
 class ViewActivity : AppCompatActivity(), HttpObserver {

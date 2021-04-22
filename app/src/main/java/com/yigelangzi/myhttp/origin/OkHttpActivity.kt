@@ -1,20 +1,14 @@
 package com.yigelangzi.myhttp.origin
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.yigelangzi.myhttp.R
-import okhttp3.Call
-import okhttp3.Callback
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import okhttp3.Response
-import okhttp3.FormBody
+import okhttp3.*
 import org.json.JSONObject
 import java.io.IOException
-import java.lang.StringBuilder
 
 class OkHttpActivity : AppCompatActivity() {
     private lateinit var mTvResponse: TextView
