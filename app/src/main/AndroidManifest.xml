@@ -11,35 +11,45 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyHttp">
-<!--        <activity android:name=".mymvvm.ViewActivity">-->
+<!--        <activity -->
+<!--            android:name=".mymvvm.ViewActivity"-->
+<!--            android:exported="true">-->
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
 <!--        </activity>-->
 
-<!--        <activity android:name=".jetpackmvvm.JetViewActivity">-->
+<!--        <activity -->
+<!--            android:name=".jetpackmvvm.JetViewActivity"-->
+<!--            android:exported="true">-->
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
 <!--        </activity>-->
 
-<!--        <activity android:name=".origin.OkHttpActivity">-->
+<!--        <activity -->
+<!--            android:name=".origin.OkHttpActivity"-->
+<!--            android:exported="true">-->
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
 <!--        </activity>-->
 
-<!--        <activity android:name=".origin.RetrofitActivity">-->
+<!--        <activity -->
+<!--            android:name=".origin.RetrofitActivity"-->
+<!--            android:exported="true">-->
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
 <!--        </activity>-->
 
-        <activity android:name=".origin.OrrActivity">
+        <activity
+            android:name=".origin.OrrActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
